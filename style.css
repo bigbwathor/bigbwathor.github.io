@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Avenir Next';
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  background-image: url('header.jpg');
+  background-position: center;
+}
+
+.container {
+	height: 300px;
+	line-height: 400px;
+	transition: all 0.75s;
+
+}
+
+.container:hover {
+	transform: scale(1.04);
+}
+
+.row1 {
+	text-align: center;
+	font-weight: none;
+	font-size: 35px;
+	height: 425px;
+}
+
+.btn {
+	font-family: 'Avenir Next';
+}
